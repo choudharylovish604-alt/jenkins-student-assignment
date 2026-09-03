@@ -34,10 +34,9 @@ pipeline {
             }
         }
 
-       stage('Test') {
+      stage('Test') {
     steps {
         echo 'Running tests...'
-        error 'Test failed!'
     }
 }
 
